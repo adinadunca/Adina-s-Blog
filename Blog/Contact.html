@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <title>Adina's Blog</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta http-equiv="X-UA-Compatible" contens="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" href="mystyle.css">
+    
+  </head>
+
+  <body>
+   <header> 
+    <div class="subscribe">
+     <form>
+      <input type="email" placeholder="Enter E-mail">
+      <button type="submit">Subscribe to my blog</button>
+   </form>
+  </div>
+  </header>
+  
+<div class="menu" onclick="openArticles()">Articles</div>
+<div class="menu" onclick="openReviews()">Reviews</div>
+<div class="menu" onclick="openContact()">Contact</div>
+<div class="container">
+    <form>
+        <label>First name</label>
+        <input type="text" placeholder="Your name..">
+        <label>Last name</label>
+        <input type="text" placeholder="Your name..">
+        <label>Country</label>
+        <select>
+            <option>Romania</option>
+            <option>England</option>
+            <option>Greece</option>
+        </select>
+
+        <label>Subject</label>
+        <textarea placeholder="Write something.." style="height: 20px;"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
